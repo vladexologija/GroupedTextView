@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GroupedTextView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="GroupedTextViewContainer">
+        <item name="android:layout_width">fill_parent</item>
+     	<item name="android:layout_height">fill_parent</item>
+     	<item name="android:orientation">vertical</item>
+     	<item name="android:padding">1dp</item>
+     	<item name="android:background">@drawable/item_border</item>
+    </style>
+</resources>

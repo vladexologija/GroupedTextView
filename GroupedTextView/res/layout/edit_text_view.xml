@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/edit_text_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="18dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:textColor="@color/label_color"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="6"
+            android:background="@null"
+            android:ellipsize="end"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="18dp"
+            android:paddingTop="10dp"
+            android:singleLine="true"
+            android:textColor="@color/text_color"
+            android:textSize="17sp" >
+        </EditText>
+    </LinearLayout>
+    
+    <include android:id="@+id/spacer" layout="@layout/spacer" />
+
+</LinearLayout>

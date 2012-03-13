@@ -1,4 +1,4 @@
-# Android layout for grouping views together in iOS style
+# Android layout for grouping views in iOS style
 
 ![GroupedTextView](http://2.bp.blogspot.com/-WjurFgw6PoI/T132MY1VDgI/AAAAAAAAAII/QfSt_vWR7eU/s400/groupedtableview.png "GroupedTextView")
 
